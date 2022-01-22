@@ -1,14 +1,15 @@
-<h1>My header</h1>
-
+<!--<a href="https://icons8.com/icon/35026/brezel">Brezel icon by Icons8</a> -->
 <section class="hero is-link is-small">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
-          </a>
+          <%= link_to root_path, class: "navbar-item" do %>
+            <img src="https://img.icons8.com/office/16/000000/bavarian-pretzel.png"/>
+            <span class = "has-textweight-bold is-size-4 ml-4">FoodieStack</span>
+          <% end %>
+
           <span class="navbar-burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
